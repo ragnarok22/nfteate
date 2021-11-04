@@ -3,14 +3,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "mint": "node -r dotenv/config mint.js"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.3.2",
     "@truffle/hdwallet-provider": "^1.5.1",
+    "dotenv": "^10.0.0",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "web3": "^1.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
