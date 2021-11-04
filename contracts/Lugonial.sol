@@ -8,7 +8,7 @@ import "./ERC721Tradable.sol";
  * @title Lugonial
  * Lugonial - a contract for my non-fungible lugonials.
  */
-contract Creature is ERC721Tradable {
+contract Lugonial is ERC721Tradable {
     constructor(address _proxyRegistryAddress)
         ERC721Tradable("Lugonial", "LUGO", _proxyRegistryAddress)
     {}
@@ -17,7 +17,7 @@ contract Creature is ERC721Tradable {
         return "https://nfteate.vercel.app/api/lugonials/";
     }
 
-    function contractURI() public pure returns (string memory) {
-        return "https://creatures-api.opensea.io/contract/opensea-creatures";
-    }
+    // function contractURI() public pure returns (string memory) {
+    //     return "https://creatures-api.opensea.io/contract/opensea-creatures";
+    // }
 }
