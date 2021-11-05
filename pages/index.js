@@ -1,4 +1,5 @@
 import BaseLayout from '../layouts/base'
+import TelegramLogin from '../components/TelegramLogin'
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
         <p className="text-xl">
           A decentralized, open-source, NFT registry for Ethereum.
         </p>
+        <div />
+        <TelegramLogin />
     </BaseLayout>
   )
 }
