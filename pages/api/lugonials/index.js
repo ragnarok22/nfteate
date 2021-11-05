@@ -1,6 +1,6 @@
 import { supabase } from "../../../utils/supabaseClient"
 
-export default async function helloAPI(req, res) {
+export default async function allLugonials(req, res) {
   try {
     let { data, error, status } = await supabase.from("lugonials").select("*")
     
