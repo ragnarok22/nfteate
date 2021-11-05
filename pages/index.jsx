@@ -6,7 +6,7 @@ export default function Home() {
     <BaseLayout>
         <h1 className="text-4xl font-bold">NFTéate</h1>
         <p className="text-xl">
-          A decentralized, open-source, NFT registry for Ethereum.
+          Crea un NFT en OpenSea a partir de tu perfil en Telegram
         </p>
         <TelegramLogin />
     </BaseLayout>
